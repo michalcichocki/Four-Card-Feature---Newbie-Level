@@ -1,0 +1,180 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 97%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 1400px;
+}
+
+.header {
+    text-align: center;
+    line-height: 15px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.header h2 {
+    font-weight: lighter;
+    color: gray;
+}
+
+.header h3 {
+    font-weight: bold;
+    font-size: 23.5px;
+}
+
+.header p {
+    font-size: 12px;
+    color: gray;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.team {
+    background-color: white;
+    border-top: hsl(0, 78%, 62%)2.5px solid;
+    border-radius: 4px;
+    width: 220px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 0px 0px 25px 25px;
+    box-shadow: 0px 10px 15px gray;
+    font-size: 10px;
+}
+
+.karma {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 0px 0px 25px 25px;
+    border-top: hsl(34, 97%, 64%) 2.5px solid;
+    border-radius: 4px;
+    box-shadow: 0px 10px 15px gray;
+    font-size: 10px;
+}
+
+.calculator {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    margin-top: -270px;
+    padding: 0px 0px 25px 25px;
+    right: 150px;
+    border-top: hsl(212, 86%, 64%)2.5px solid;
+    border-radius: 4px;
+    box-shadow: 0px 10px 15px gray;
+    font-size: 10px;
+}
+
+.supervisor {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    margin-top: -270px;
+    padding: 0px 0px 25px 25px;
+    left: 150px;
+    border-top: hsl(180, 62%, 55%) 2.5px solid;
+    border-radius: 4px;
+    box-shadow: 0px 10px 15px gray;
+    font-size: 10px;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 70px;
+}
+
+team p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.karma h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+karma p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.supervisor p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.calculator p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 21%;
+    height: 32%;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+@media (max-width:375px) {}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.supervisor {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.header h2,
+.header h3 {
+    line-height: lem;
+    em justify-content: center;
+    font-size: 15px;
+}
+
+.header p {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+}
+@media (max-width:1440px ???)
