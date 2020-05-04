@@ -1,0 +1,231 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+
+.header {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.header p {
+    font-size: 10.2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.team {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    padding: 0px 0px 25px 25px;
+    border-radius: 4px;
+    border-top: hsl(0, 78%, 62%) 2.5px solid;
+    font-size: 10px;
+    box-shadow: 0px 10px 15px gray;
+    margin-top: 20px;
+}
+
+.image1 {
+    width: 21%;
+    margin-left: 70%;
+    margin-top: 15px;
+    height: 32%;
+}
+
+.team p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.team h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.karma {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    padding: 0px 0px 25px 25px;
+    border-radius: 4px;
+    border-top: hsl(34, 97%, 64%) 2.5px solid;
+    font-size: 10px;
+    box-shadow: 0px 10px 15px gray;
+    margin-top: 20px;
+}
+
+.image4 {
+    width: 21%;
+    margin-left: 70%;
+    margin-top: 15px;
+    height: 32%;
+}
+
+.karma p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.karma h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.supervisor {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    padding: 0px 0px 25px 25px;
+    border-radius: 4px;
+    border-top: hsl(180, 62%, 55%)2.5px solid;
+    font-size: 10px;
+    box-shadow: 0px 10px 15px gray;
+    margin-top: -270px;
+    margin-left: 150px;
+}
+
+.image2 {
+    width: 21%;
+    margin-left: 70%;
+    margin-top: 15px;
+    height: 32%;
+}
+
+.supervisor p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.supervisor h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.calculator {
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    padding: 0px 0px 25px 25px;
+    border-radius: 4px;
+    border-top: hsl(212, 86%, 64%) 2.5px solid;
+    font-size: 10px;
+    box-shadow: 0px 10px 15px gray;
+    margin-top: -270px;
+    margin-right: 150px;
+}
+
+.image3 {
+    width: 21%;
+    margin-left: 70%;
+    margin-top: 15px;
+    height: 32%;
+}
+
+.calculator p {
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.calculator h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+@media (max-width:1320px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        text-align: center;
+    }
+    .supervisor {
+        margin: -554px auto;
+    }
+    .team {
+        margin-top: 200px;
+    }
+    .karma {
+        margin-top: 10px;
+    }
+    .calculator {
+        margin-top: 941px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:280px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        line-height: normal;
+        justify-content: center;
+    }
+    .supervisor {
+        margin: -554px auto;
+    }
+    .team {
+        margin-top: 200px;
+    }
+    .karma {
+        margin-top: 10px;
+    }
+    .calculator {
+        margin-top: 941px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
